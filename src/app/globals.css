@@ -2,3 +2,17 @@
 @plugin "daisyui";
 
 
+body {
+  padding: 1rem; 
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.btn {
+  @apply flex items-center border border-black rounded-full px-4 py-4 text-sm 
+  font-medium hover:bg-black hover:text-white transition;
+}
+
+.btn-icon-circle {
+  @apply border border-black rounded-full p-2 mr-3 flex items-center justify-center;
+}
