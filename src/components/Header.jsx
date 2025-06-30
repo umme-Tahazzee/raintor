@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 const Header = () => {
  const [isOpen, setIsOpen] = useState(false);
  return (
-  <div className="min-h-screen bg-[url('../../public/assests/bg.png')] bg-cover bg-center
+  <div className="lg:h-[728px]   page-bg
   ">
   <div className=" font-serif  text-black sm:px-6 md:px-20 space-y-5">
 
@@ -104,15 +104,6 @@ const Header = () => {
 
        
         </div>
-
-
-
-
-
-
-
-
-
       </motion.div>
     </div>
    

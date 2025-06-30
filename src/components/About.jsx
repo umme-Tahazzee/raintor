@@ -50,11 +50,11 @@ const About = () => {
       {/* Header section */}
       <div className="space-y-10">
         {/* Button Section */}
-        <div className="flex items-center gap-2 cursor-pointer">
-          <span className="outline outline-white/50 rounded-full px-4 py-3">
+        <div className="icon-btn-group ">
+          <span className="icon-circle outline-white/50">
             <FaArrowDown className="text-white/50" />
           </span>
-          <button className="text-white outline outline-white/50 rounded-full px-5 py-2 text-sm sm:text-base">
+          <button className='btn-outline-white text-white'>
             Why Choose Me
           </button>
         </div>
