@@ -6,7 +6,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { FaInstagram, FaFacebook, FaTwitter, FaPhone } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
-
 const Header = () => {
  const [isOpen, setIsOpen] = useState(false);
  return (
